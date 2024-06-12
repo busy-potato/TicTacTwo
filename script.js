@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const opponentMoves = playerMoves[opponent];
 
         // Check if Player 2 has made 3 moves to start the remove sequence
-        if (currentPlayer === 'O' && !removeSequenceStarted && opponentMoves.length >= 3) {
+        if (currentPlayer === 'O' && !removeSequenceStarted && opponentMoves.length >= 4) {
             removeSequenceStarted = true;
         }
 
